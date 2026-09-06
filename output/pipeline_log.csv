@@ -1,0 +1,6 @@
+pipeline_run_time,stage,status,rows,duration_seconds,message
+2026-09-05 19:13:23.602292,Bronze Ingestion,SUCCESS,4,0.001,4 source files available.
+2026-09-05 19:13:23.602292,Data Quality,SUCCESS,23,0.004,DQ report successfully generated.
+2026-09-05 19:13:23.602292,Quarantine,SUCCESS,79,0.006,2 quarantine files processed.
+2026-09-05 19:13:23.602292,Silver Transformation,SUCCESS,4043,0.028,4 cleaned datasets available.
+2026-09-05 19:13:23.602292,Gold Data Modelling,SUCCESS,4047,0.02,8 Gold datasets available.

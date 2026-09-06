@@ -1,0 +1,6 @@
+metric,value
+Total DQ Rules,23.0
+Rules With Violations,14.0
+Total Violation Events,1651.0
+Quarantined Records,79.0
+DQ Rule Pass Rate (%),39.13

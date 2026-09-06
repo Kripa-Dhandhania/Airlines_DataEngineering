@@ -1,0 +1,6 @@
+metric,value
+Total Payment Transactions,1000.0
+Valid Payment Transactions,922.0
+Invalid Payment Transactions,78.0
+Total Revenue,7385142.98
+Average Valid Transaction Value,8009.92

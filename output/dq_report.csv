@@ -1,0 +1,24 @@
+dataset,rule_id,severity,action,failed_record_count,description,checked_at
+bookings,B001,CRITICAL,QUARANTINE,0,Duplicate booking ID,2026-09-05 17:37:03.302121
+bookings,B002,HIGH,FLAG,75,Booking status is missing or invalid,2026-09-05 17:37:03.304262
+bookings,B003,CRITICAL,QUARANTINE,0,Booking references a non-existent flight,2026-09-05 17:37:03.304262
+bookings,B004,CRITICAL,QUARANTINE,0,Booking references a non-existent passenger,2026-09-05 17:37:03.306276
+flights,F001,CRITICAL,QUARANTINE,0,Flight ID is missing,2026-09-05 17:37:03.274162
+flights,F002,HIGH,FLAG,32,Duplicate flight IDs detected,2026-09-05 17:37:03.276660
+flights,F003,MEDIUM,FLAG,41,Airline value is missing,2026-09-05 17:37:03.277689
+flights,F004,MEDIUM,FLAG,31,Airline is marked as UNKNOWN,2026-09-05 17:37:03.280102
+flights,F005,HIGH,DEDUPLICATE,30,Exact duplicate flight records,2026-09-05 17:37:03.285089
+flights,F006,CRITICAL,QUARANTINE,0,Invalid departure timestamp,2026-09-05 17:37:03.287612
+flights,F007,CRITICAL,QUARANTINE,0,Invalid arrival timestamp,2026-09-05 17:37:03.287612
+flights,F008,CRITICAL,QUARANTINE,1,Arrival occurs before departure,2026-09-05 17:37:03.291478
+flights,F009,HIGH,RECALCULATE,1,Stored duration differs from timestamp-derived duration,2026-09-05 17:37:03.297590
+flights,F010,INFO,FLAG,124,Flight crosses calendar day,2026-09-05 17:37:03.299599
+passengers,P001,HIGH,FLAG,75,Duplicate passenger IDs detected,2026-09-05 17:37:03.306276
+passengers,P002,MEDIUM,FLAG,10,Passenger last name is missing,2026-09-05 17:37:03.308288
+passengers,P003,HIGH,FLAG,114,Aadhaar identifier does not contain 12 digits,2026-09-05 17:37:03.312422
+passengers,P004,CRITICAL,MASK,1039,Passenger PII must be masked or protected in analytical outputs,2026-09-05 17:37:03.312422
+payments,PY001,CRITICAL,QUARANTINE,0,Duplicate payment ID,2026-09-05 17:37:03.313576
+payments,PY002,CRITICAL,QUARANTINE,0,Payment references a non-existent booking,2026-09-05 17:37:03.313576
+payments,PY003,HIGH,QUARANTINE,30,Payment amount is not numeric,2026-09-05 17:37:03.313576
+payments,PY004,HIGH,QUARANTINE,48,Payment amount is missing,2026-09-05 17:37:03.316577
+payments,PY005,MEDIUM,FLAG,0,Payment method is invalid or missing,2026-09-05 17:37:03.321103

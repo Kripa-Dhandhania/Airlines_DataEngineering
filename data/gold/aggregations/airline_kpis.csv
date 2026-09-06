@@ -1,0 +1,6 @@
+airline,total_flights,average_duration_minutes,overnight_flights,anomalous_flights,flight_share_percent,overnight_percent
+INDIGO,249,167.7,30,0,24.8,12.05
+SPICEJET,235,163.61,27,0,23.41,11.49
+AIR INDIA,233,163.15,30,0,23.21,12.88
+VISTARA,218,162.68,27,0,21.71,12.39
+UNKNOWN,69,166.07,8,0,6.87,11.59

@@ -1,0 +1,4 @@
+payment_method,total_transactions,valid_transactions,total_revenue,average_transaction_value
+CARD,329,300,2400812.04,8002.71
+NETBANKING,313,291,2365644.17,8129.36
+UPI,358,331,2618686.77,7911.44

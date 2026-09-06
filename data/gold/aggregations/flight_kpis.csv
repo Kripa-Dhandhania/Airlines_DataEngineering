@@ -1,0 +1,7 @@
+metric,value
+Total Flights,1004.0
+Average Flight Duration (Minutes),164.49
+Minimum Flight Duration (Minutes),30.0
+Maximum Flight Duration (Minutes),300.0
+Overnight Flights,122.0
+Anomalous Flights,0.0

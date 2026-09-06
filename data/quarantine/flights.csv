@@ -1,0 +1,2 @@
+flight_id,airline,source,destination,departure_time,arrival_time,duration,dq_rule,dq_severity,dq_reason
+SJ192,SpiceJet,HYD,BOM,2026-04-19 18:45:42,2026-04-18 23:45:42,1899-12-29 05:00:00,F008,CRITICAL,Arrival timestamp occurs before departure timestamp

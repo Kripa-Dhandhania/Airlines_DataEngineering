@@ -1,0 +1,4 @@
+payment_method_key,payment_method
+1,CARD
+2,NETBANKING
+3,UPI

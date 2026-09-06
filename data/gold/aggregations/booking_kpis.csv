@@ -1,0 +1,9 @@
+metric,value
+Total Bookings,1000.0
+Confirmed Bookings,320.0
+Cancelled Bookings,314.0
+Pending Bookings,291.0
+Confirmation Rate (%),32.0
+Cancellation Rate (%),31.4
+Pending Rate (%),29.1
+Bookings With Quarantined Flight,1.0
